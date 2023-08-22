@@ -30,6 +30,3 @@ if __name__ == "__main__":
     print("Employee {} is done with tasks({}/{}):"
           .format(employee_name, len(employee_completed_tasks),
                   len(employee_all_task_list)))
-
-    for completed_task in employee_completed_tasks:
-        print("\t", " ", completed_task.get("title"))
